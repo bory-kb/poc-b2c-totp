@@ -1,0 +1,12 @@
+{
+    "version": "2.0",
+    "logging": {
+        "applicationInsights": {
+            "samplingExcludedTypes": "Request",
+            " FUNCTIONS_WORKER_RUNTIME":"dotnet",
+            "samplingSettings": {
+                "isEnabled": true
+            }
+        }
+    }
+}
